@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Factorial</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./factorial.js" defer></script>
+</head>
+<body>
+
+    <main class="contenedor">
+        <section class="tarjeta">
+
+
+            <h1>Calculadora Factorial</h1>
+
+            <p class="descripcion">
+                Descubre el factorial de un número
+                de una forma sencilla.
+            </p>
+
+            <div class="formulario">
+                <label for="numero">Ingresa un número</label>
+
+                <input
+                    type="number"
+                    id="numero"
+                    min="0"
+                    step="1"
+                    placeholder="Ejemplo: 4"
+                >
+
+                <button id="botonCalcular" type="button">
+                    Calcular factorial
+                </button>
+            </div>
+
+            <div class="resultado" aria-live="polite">
+                <p class="titulo-resultado">EL RESULTADO ES</p>
+                <h2 id="valorResultado"></h2>
+                <p id="operacion" class="operacion">
+                    Tu resultado aparecerá aquí.
+                </p>
+            </div>
+
+        
+
+        </section>
+    </main>
+
+</body>
+</html>

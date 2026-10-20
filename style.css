@@ -1,0 +1,135 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f8efff, #eee7ff, #ffeaf4);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 460px;
+}
+
+.tarjeta {
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 12px 35px rgba(133, 94, 180, 0.18);
+}
+
+.icono {
+    width: 65px;
+    height: 65px;
+    margin: 0 auto 15px;
+    background: #f0e5ff;
+    color: #9061cf;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+h1 {
+    color: #7450a9;
+    font-size: 27px;
+    margin-bottom: 12px;
+}
+
+.descripcion {
+    color: #81768e;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    color: #57476b;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    border: 2px solid #e4d6fa;
+    border-radius: 12px;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 12px;
+}
+
+input:focus {
+    border-color: #a17be0;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #a77be7, #d18bc7);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.resultado {
+    background: #f5efff;
+    color: #7450a9;
+    margin-top: 22px;
+    padding: 18px;
+    border-radius: 15px;
+    line-height: 1.8;
+    overflow-wrap: anywhere;
+}
+
+.titulo-resultado {
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.resultado h2 {
+    font-size: 30px;
+    margin: 5px 0;
+}
+
+.operacion {
+    font-size: 13px;
+}
+
+.nota {
+    color: #a096ad;
+    font-size: 12px;
+    margin-top: 22px;
+}
+
+@media (max-width: 400px) {
+    .tarjeta {
+        padding: 25px 20px;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+}
